@@ -3,6 +3,7 @@
     "displayName": "Rivets Snippets",
     "description": "Provides snippets for the RivetsJS Library",
     "version": "1.0.0",
+    "publisher": "neilbarkhina",
     "engines": {
         "vscode": "^1.28.0"
     },
@@ -10,12 +11,12 @@
         "Snippets"
     ],
     "bugs": {
-		"url": "https://github.com/nbarkhina/AzureGitRepos/issues",
+		"url": "https://github.com/nbarkhina/RivetsSnippets/issues",
 		"email": "neil@barkhina.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/nbarkhina/AzureGitRepos"
+		"url": "https://github.com/nbarkhina/RivetsSnippets"
 	},
     "contributes": {
         "snippets": [
@@ -28,5 +29,16 @@
                 "path": "./snippets/snippets_js.json"
             }
         ]
-    }
+    },
+    "keywords": [
+		"rivets",
+		"rivetsjs",
+		"rivets snippets",
+		""
+    ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+		"color": "#eff1f3",
+		"theme": "light"
+	}
 }
