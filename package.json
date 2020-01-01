@@ -2,7 +2,7 @@
     "name": "rivetsextension",
     "displayName": "Rivets Snippets",
     "description": "Provides snippets for the RivetsJS Library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "neilbarkhina",
     "engines": {
         "vscode": "^1.28.0"

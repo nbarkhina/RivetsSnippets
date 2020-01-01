@@ -1,4 +1,4 @@
-# RivetsJS Snippets Extension
+# RivetsJS VS Code Snippets Extension
 
 This is a VS Code extension that provides snippets for the Rivets JavaScript Library.
 
