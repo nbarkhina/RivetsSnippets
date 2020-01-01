@@ -1,0 +1,16 @@
+{
+    "Rivets Bind": {
+		"prefix": "rv-bind",
+		"body": [
+			"rivets.bind(document.getElementsByTagName('body')[0], { data: this });"
+		],
+		"description": "Rivets Bind to Body"
+	},
+	"Rivets Formatters": {
+		"prefix": "rv-formatters",
+		"body": [
+			"rivets.formatters.ev = function (value,arg) { return eval(value + arg); }\nrivets.formatters.ev_string = function (value, arg) { let eval_string = \"'\" + value + \"'\" + arg; return eval(eval_string); }\n"
+		],
+		"description": "Rivets Formatter Helpers"
+	}
+}

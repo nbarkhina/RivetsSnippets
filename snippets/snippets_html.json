@@ -1,0 +1,65 @@
+{
+	"Rivets If": {
+		"prefix": "rv-if",
+		"body": [
+			"rv-if=\"$1\""
+		],
+		"description": "Rivets If: rv-if=\"data.showName\""
+	},
+	"Rivets Html": {
+		"prefix": "rv-html",
+		"body": [
+			"rv-html=\"$1\""
+		],
+		"description": "Rivets Html: rv-html=\"data.mytags\""
+	},
+	"Rivets Hide": {
+		"prefix": "rv-hide",
+		"body": [
+			"rv-hide=\"$1\""
+		],
+		"description": "Rivets Hide: rv-hide=\"data.mytags\""
+	},
+	"Rivets Show": {
+		"prefix": "rv-show",
+		"body": [
+			"rv-show=\"$1\""
+		],
+		"description": "Rivets Show: tags stay on the DOM vs rv-if where it's removed"
+	},
+	"Rivets Value": {
+		"prefix": "rv-value",
+		"body": [
+			"rv-value=\"$1\""
+		],
+		"description": "Rivets two way binding\nExample: <input class=\"form-control\" type=\"text\" rv-value=\"data.message\" >"
+	},
+	"Rivets Class": {
+		"prefix": "rv-class",
+		"body": [
+			"rv-class-btn-primary=\"$1\""
+		],
+		"description": "Rivets Class\nExample: <button class=\"btn mt-4\" rv-class-btn-primary=\"data.mode1 | ev '==true'\" >Click Me 1</button><br>"
+	},
+	"Rivets EV": {
+		"prefix": "rv-ev",
+		"body": [
+			"rv-if=\"data.mode1 | ev '==false'\""
+		],
+		"description": "Rivets EV Example - data.mode1 | ev '==true'"
+	},
+	"Rivets EV String": {
+		"prefix": "rv-ev-string",
+		"body": [
+			"rv-if=\"data.nes.error_message | ev_string '.length > 0'\""
+		],
+		"description": "Rivets EV String Example - data.mode1 | ev '==true'"
+	},
+	"Rivets Each": {
+		"prefix": "rv-for",
+		"body": [
+			"rv-each-rom=\"data.romList\""
+		],
+		"description": "Rivets Each Example\n<option rv-each-rom=\"data.romList\" rv-value=\"rom.url\">{ rom.name }</option>"
+	}
+}

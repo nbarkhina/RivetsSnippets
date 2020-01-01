@@ -1,0 +1,32 @@
+{
+    "name": "rivetsextension",
+    "displayName": "Rivets Snippets",
+    "description": "Provides snippets for the RivetsJS Library",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "bugs": {
+		"url": "https://github.com/nbarkhina/AzureGitRepos/issues",
+		"email": "neil@barkhina.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nbarkhina/AzureGitRepos"
+	},
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets_html.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets_js.json"
+            }
+        ]
+    }
+}
