@@ -20,6 +20,13 @@
 		],
 		"description": "Rivets Hide: rv-hide=\"data.mytags\""
 	},
+	"Rivets Disabled": {
+		"prefix": "rv-disabled",
+		"body": [
+			"rv-disabled=\"${1:data.suspended}\""
+		],
+		"description": "Rivets Disabled: rv-disabled=\"data.suspended\""
+	},
 	"Rivets Show": {
 		"prefix": "rv-show",
 		"body": [
