@@ -62,6 +62,13 @@
 		],
 		"description": "Rivets EV String Example - data.mode1 | ev '==true'"
 	},
+	"Rivets EV Equals": {
+		"prefix": "rv-ev-equals",
+		"body": [
+			"rv-if=\"data.myApp.currentHtml | ev_string '== &quot;respond.html&quot;'\""
+		],
+		"description": "Rivets EV Equals Example for comparing a string"
+	},
 	"Rivets Each": {
 		"prefix": "rv-for",
 		"body": [
